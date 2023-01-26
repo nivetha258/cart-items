@@ -1,0 +1,25 @@
+#watch-products .initem{
+	box-shadow:0 0 0 1px gray;
+	padding:10px;
+	transition:all 1s ease;
+}
+
+#watch-products button{
+	width:150px;
+}
+#watch-products img{
+	display:block;
+	width:130px;
+	height:140px;
+	margin:0 auto;
+}
+#watch-products .initem:hover{transform:scale(1.1)}
+#cart-products img{
+	display:block;
+	width:70px;
+	margin:0 auto;
+}
+#cart-products .quantity button{
+	margin:2px;
+	border-radius:10px;
+}
