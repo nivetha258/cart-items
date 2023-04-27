@@ -1,9 +1,9 @@
 let products=[
-	{"id":"1","product":"watch1","price":1000,"picture":"image/watch1.jpg","description":"Pink watch"},
-	{"id":"2","product":"watch2","price":1100,"picture":"image/watch2.jpg","description":"Blue watch"},
-	{"id":"3","product":"watch3","price":1200,"picture":"image/watch3.jpg","description":"Black watch"},
-	{"id":"4","product":"watch4","price":1300,"picture":"image/watch4.jpg","description":"Golden watch"},
-	{"id":"5","product":"watch5","price":1400,"picture":"image/watch5.jpg","description":"Combo watch"}
+	{"id":"1","product":"watch1","price":1000,"picture":"image/watch1.jpg","description":"Piaoma"},
+	{"id":"2","product":"watch2","price":1100,"picture":"image/watch2.jpg","description":"Tmeter"},
+	{"id":"3","product":"watch3","price":1200,"picture":"image/watch3.jpg","description":"Blue Pearl"},
+	{"id":"4","product":"watch4","price":1300,"picture":"image/watch4.jpg","description":"Fastrack"},
+	{"id":"5","product":"watch5","price":1400,"picture":"image/watch5.jpg","description":"Flozio"}
 ];
 let cartitems=[];	
 						//create products list--------
@@ -173,5 +173,5 @@ function refreshcart(){
 			 //return "Total Amount"+ total
 			
 	},0)
-	inside.innerText= "Total Amount is" + x;
+	inside.innerText= "Total Amount is " + x;
 }
